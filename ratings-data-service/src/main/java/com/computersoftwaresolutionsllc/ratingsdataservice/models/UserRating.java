@@ -1,5 +1,6 @@
 package com.computersoftwaresolutionsllc.ratingsdataservice.models;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserRating {

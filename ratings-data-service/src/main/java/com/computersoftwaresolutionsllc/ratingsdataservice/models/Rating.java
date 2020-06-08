@@ -3,9 +3,9 @@ package com.computersoftwaresolutionsllc.ratingsdataservice.models;
 public class Rating {
 
     private String movieId;
-    private int rating;
+    private String rating;
 
-    public Rating(String movieId, int rating) {
+    public Rating(String movieId, String rating) {
         this.movieId = movieId;
         this.rating = rating;
     }
@@ -18,11 +18,11 @@ public class Rating {
         this.movieId = movieId;
     }
 
-    public int getRating() {
+    public String getRating() {
         return rating;
     }
 
-    public void setRating(int rating) {
+    public void setRating(String rating) {
         this.rating = rating;
     }
 }
